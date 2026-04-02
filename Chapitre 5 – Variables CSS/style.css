@@ -1,0 +1,17 @@
+button {
+  background-color: #3498db;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #2ecc71;
+}
+
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animated {
+  animation: rotation 2s linear infinite;
+}
