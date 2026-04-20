@@ -46,7 +46,7 @@ $events = $sql->fetchAll(PDO::FETCH_ASSOC);
             <?php
             if($user){
                 echo "<span>Bonjour " . $user['name'] . " </span>";
-                echo "<a href='dashboard.php?user_id=".$user['id']."' class='btn btn-blue'>Mes Réservations</a> ";
+               echo "<a href='dashboard.php' class='btn btn-blue'>Mes Réservations</a>";
                 echo "<a href='logout.php' style='color:red; margin-left:10px;'>Logout</a>";
             } else {
                 echo "<a href='login.php' class='btn btn-blue'>Connexion</a>";
